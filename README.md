@@ -1,10 +1,10 @@
 ## BemibbsPHP Framework 1.0
-***
+*****
 安装:
 ```
 composer create-project bemiou_lingqi/bemibbs bemi
 ```
-***
+*****
 功能特性:
 + 插件引擎
 + 模板引擎
