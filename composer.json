@@ -1,0 +1,20 @@
+{
+    "name": "bemiou_lingqi/bemibbs",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "bemibbs\\": "bootstrap",
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lingqi",
+            "email": "3615331065@qq.com"
+        }
+    ],
+    "require": {
+      "ext-json": "*",
+      "ext-mysqli": "*"
+    }
+}

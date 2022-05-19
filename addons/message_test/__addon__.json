@@ -1,0 +1,19 @@
+{
+  "name":  "message_test",
+  "description": "这是一个日志消息输出插件",
+  "namespace": "message_test",
+  "file": {
+    "list": [
+      {
+        "type": 0,
+        "name": "index",
+        "path": "."
+      },
+      {
+        "type": 1,
+        "name": "Message",
+        "path": "./tools"
+      }
+    ]
+  }
+}

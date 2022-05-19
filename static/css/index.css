@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("https://www.dmoe.cc/random.php");
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    margin-left: 37%;
+    margin-top: 100px;
+    padding: 10px;
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, .8);
+    box-sizing: border-box;
+    animation: 0.5s loadBox linear;
+}
+
+.box a {
+    color: #01c2e7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box a:hover{
+    border-bottom: 1px solid #01c2e7;
+}
+
+.container {
+    color: #4b4b4b;
+    font-family: "Helvetica", serif;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+}
+
+.container-title{
+    margin-bottom: 8px;
+}
+
+.container-footer{
+    box-sizing: border-box;
+    left: 22%;
+}
+
+.box-body-body img{
+    width: 140px;
+    height: 140px;
+    border-radius: 4px;
+}
+
+.box-body-foot {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+@keyframes loadBox {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 600px) {
+    .box {
+        max-width: 500px;
+    }
+}
