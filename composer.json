@@ -1,6 +1,13 @@
 {
-    "name": "bemiou_lingqi/bemibbs",
+    "name": "bemibbs/framrwork",
     "license": "MIT",
+    "description": "A lightweight framework based on PHP design",
+    "keyword": [
+        "bemibbs",
+        "framrwork",
+        "bemibbsphp"
+    ],
+    "homepage": "http://www.bemiou.cn/",
     "autoload": {
         "psr-4": {
             "bemibbs\\": "bootstrap",
